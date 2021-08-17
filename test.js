@@ -20,13 +20,13 @@ test("One euro should be 1.206 dollars", function(){
 });
 
 // -----------------------DOLAR A YENES
-test("One dollar equal to 109 yenes", function(){   
+test("10 dollar equal to yenes", function(){   
     const { fromDollarToYen } = require('./app.js') 
-    expect(fromDollarToYen(3.5)).toBe(381.5); 
+    expect(fromDollarToYen(10)).toBe(1065.8333333333335); 
 });
 
 // -----------------------YENES A LIBRAS
-test("One yene equal to 0,0066 Pounds", function(){   
+test("10.000 yene to Pounds", function(){   
     const { fromYenToPound } = require('./app.js')
-    expect(fromYenToPound(1000)).toBe(6.6); 
+    expectfromYenToPound(10000)).toBe(62.54886630179828); 
 });
